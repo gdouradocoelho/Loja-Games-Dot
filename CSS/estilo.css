@@ -1,0 +1,179 @@
+/* Limpar Formatações da pagina */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+#banner {
+    width: 100vw;
+    height: 600px;
+    background: #f2f3ee url(../imagens/banner-principal.jpg) no-repeat top left;
+}
+
+#envio {
+    width: 100vw;
+    height: 80px;
+    background: #d7d4d4;
+    display: flex;
+    padding-left: 40%;
+}
+
+#txt-envio {
+    line-height: 80px;
+    font-size: 25px;
+    color: rgb(31, 30, 30);
+    text-decoration: dashed;
+    padding-left: 15px;
+}
+
+#area-principal{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#area-central {    
+    width: 660px;
+    }
+
+#produtos {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#btn {
+    padding: 5px 20px;
+    border: none;
+    background: rgb(149, 149, 214);
+}
+
+#ajuste-texto {
+    display: block !important;
+}
+
+/* Formatações de Links */
+
+a {
+    text-decoration: none;
+}
+
+#produtos a:link {
+    color: black;
+    font-size: 0.8em;
+    margin: 5px auto;
+}
+
+#menu-lateral-direito a:link {
+    font-size: 1.2em;
+    color: rgb(65, 65, 65);
+}
+
+
+/* Formatações de Menu */
+
+#menu-principal {
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    margin: 0px auto;
+    align-items: center;
+    background: #030102;
+   }
+
+#logo {
+    float: left;
+    margin-left: 5% ;
+ }   
+
+#divBusca {
+    background-color: rgb(65, 65, 65);
+    border-radius: 15px;
+    width: 700px;
+    margin: 5%;
+    height: 30px;
+}
+
+#txtBusca {
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    width: 700px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#barra-horizontal {
+    width: 100vw;
+    height: 60px;
+    background: rgb(26, 25, 25); 
+}
+
+#barra-horizontal ul {
+    margin: auto 20%;
+    list-style-type: none;
+    display: flex;
+  
+}
+
+#barra-horizontal ul li {
+    width: 400px;
+    align-items: center;
+    line-height: 60px;
+}
+
+#barra-horizontal ul a {
+    color:aliceblue;
+
+}
+
+#barra-horizontal ul a:hover{
+    color:rgb(151, 149, 153);
+}
+
+ #menu-lateral-direito {
+    border: 1px solid red;
+    width: 240px;
+    float: left; 
+ }
+
+ #barra-superior {
+     font-size: 0.8em;
+     background: rgb(48, 48, 48);
+     width: 100vw;
+     height: 50px;
+    }
+
+#barra-superior ul {
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+    color: blanchedalmond;
+    float: right;
+    margin-right: 2%;
+}
+
+#barra-superior ul li a {
+    padding: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+#barra-superior ul li:hover {
+    line-height: 40px;
+    height: 50px;
+    color: gray;
+}
+
+ /* Formatações Gerais */
+
+ h2 {
+     color: rgb(8, 44, 109);
+ }
